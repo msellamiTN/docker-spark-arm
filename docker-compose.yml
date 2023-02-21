@@ -27,3 +27,5 @@
       - "SPARK_MASTER=spark://sparkmaster:7077"
     volumes:
       - shared_data:/data   
+volumes:
+    shared_data:
